@@ -1,0 +1,7 @@
+Instana;Dynatrace;New Relic
+
+Cost Driver (MVS count);Cost Driver (Dynatrace memory GiB-hours);Cost Driver (Dynatrace RUM sessions per 1000);Cost Driver (Dynatrace synthetic actions/requests counts);Cost Driver (New Relic ingest GB/month);Cost Driver (New Relic user seats);Cost Driver (New Relic synthetics checks)
+
+S;500;100;200;50;500;50
+M;1000;200;400;100;500;100
+L;1500;300;600;150;500;150
