@@ -1,7 +1,4 @@
-Instana;Dynatrace;New Relic
-
-Cost Driver (MVS count);Cost Driver (Dynatrace memory GiB-hours);Cost Driver (Dynatrace RUM sessions per 1000);Cost Driver (Dynatrace synthetic actions/requests counts);Cost Driver (New Relic ingest GB/month);Cost Driver (New Relic user seats);Cost Driver (New Relic synthetics checks)
-
-S;500;100;200;50;500;50
-M;1000;200;400;100;500;100
-L;1500;300;600;150;500;150
+Scenario;Hosts_total;VM_8GiB_pct;VM_16GiB_pct;VM_32GiB_pct;Avg_GiB_per_host;Hours_per_month;Total_GiB_hours;Logs_GB_per_day;Logs_GB_per_month;RUM_sessions_per_month;RUM_units_per_1000;Synthetic_endpoints;Synthetic_frequency_minutes;Synthetic_regions;Synthetic_runs_per_month;Dynatrace_HTTP_requests_per_month;Dynatrace_browser_actions_per_month;NewRelic_synthetics_checks_per_month;Notes
+S;5000;0.50;0.30;0.20;14.4;730;52560000;100;3000;100000000;100000;50;1;50;109500000;109500000;109500000;109500000;"Start: 5k hosts; logs 100GB/día; RUM banco grande (100M); synthetics 50 endpoints cada 1 min en 50 regiones."
+M;5000;0.50;0.30;0.20;14.4;730;52560000;100;3000;150000000;150000;200;1;50;438000000;438000000;438000000;438000000;"Growth: mismo compute; RUM sube a 150M; synthetics sube cobertura (200 endpoints) cada 1 min en 50 regiones."
+L;5000;0.50;0.30;0.20;14.4;730;52560000;100;3000;300000000;300000;500;5;50;109500000;109500000;109500000;109500000;"Enterprise: RUM 300M; synthetics 500 endpoints cada 5 min (reduce runs vs 1 min)."
