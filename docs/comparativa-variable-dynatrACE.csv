@@ -1,0 +1,4 @@
+Escenario,Tests,Ubicaciones,Frecuencia (min),Días,Precio por request (USD),Ejecuciones por test por ubicación al mes,Requests mensuales totales,Costo mensual (USD)
+10 tests / 5 ubic / 1 min,10,5,1,30,0.001,=60*24*D2/E2,=B2*C2*G2,=H2*F2
+30 tests / 5 ubic / 1 min,30,5,1,30,0.001,=60*24*D3/E3,=B3*C3*G3,=H3*F3
+50 tests / 5 ubic / 1 min,50,5,1,30,0.001,=60*24*D4/E4,=B4*C4*G4,=H4*F4
