@@ -1,0 +1,30 @@
+# Comparative Synthetic Cost Analysis
+
+## Sheet: Inputs
+| Parameter             | Dynatrace             | Datadog              |
+|-----------------------|----------------------|---------------------|
+| Days                  |                      |                     |
+| Price per request     | $0.001               | $0.001               |
+| Frequency minutes      |                      |                     |
+| Locations             |                      |                     |
+| Requests per run      |                      |                     |
+
+## Sheet: Dynatrace-Synthetics
+| Scenarios          | Tests Executed | Total Cost         | Location  |
+|--------------------|----------------|--------------------|-----------|
+| 10                 | 10             | =10*$0.001*5       | 5         |
+| 30                 | 30             | =30*$0.001*5       | 5         |
+| 50                 | 50             | =50*$0.001*5       | 5         |
+
+## Sheet: Datadog-Synthetics
+| Scenarios          | Tests Executed | Total Cost         | Location  | Notes                                               |
+|--------------------|----------------|--------------------|-----------|-----------------------------------------------------|
+| 10                 | 10             | =10*$0.001*5       | 5         | Billing per request and per location          |
+| 30                 | 30             | =30*$0.001*5       | 5         | Billing per request and per location          |
+| 50                 | 50             | =50*$0.001*5       | 5         | Billing per request and per location          |
+
+## Sheet: Notes
+- Licensing model for Dynatrace Synthetics: ...  
+- Licensing model for Datadog Synthetics: ...  
+
+**Note:** Formulas and calculations would automatically adjust based on the parameters defined in the Inputs sheet.
